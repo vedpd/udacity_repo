@@ -24,3 +24,12 @@ Here are the commands towork on git:-
 		a. existing differences with cloned repo on local vs available online.
 	        b. any non committed files
 		c. if git commit has been done or not and file is showing in the git pipeline or not. 
+
+9. git checkout -b "branch_name" : to create a new branch with branch name and switch to that branch. 
+
+10. git checkout <branch_name> : to move to a new branch from current branch. 
+				This command allows you to move from one branch to another when you are not also looking to create the branch.
+
+11. git branch : lists all the branches presently in git and which one is active. 
+
+12. git branch -d <branch_name> : to delete any git branch. (Note : you shouldn't be running/active the branch which is going to be deleted).
