@@ -1,0 +1,43 @@
+-----------------Problem statement----------------------
+
+## Your Turn
+
+1. Create a new branch called `python_branch` and move to it.   Ans: git checkout -b "python_branch"
+2. Create a `my_file.py` and add the following code to it:      ans: touch my_file.py
+```
+def add_values(a, b):                              ans : vi my_file.py.   . Press esc + i and edit and add the function, now, esc +:w(save) and 
+                                                    then esc + :q (to quit editing window)
+  return a+b
+```
+3. View the branches.  ans : git branch
+4. Change back to the `main` or `master` branch.  ans: git checkout main
+5. Create a new branch called `markdown_branch` and move to it.  ans : git checkout -b "markdown_branch"
+6. Create a file called `new_file.md` and add the following:     ans : touch new_file.md
+                                                                vi new_file.md   . Press esc + i and edit and add the markdown, now, esc +:w(save) and 
+                                                               then esc + :q (to quit editing window)
+```
+This is a great markdown file!
+```
+7. View the branches. ans: git branch
+8. Change back to the `main` or `master` branch.  ans: git checkout main
+9. Now remove both branches.  ans: git branch -d markdown_branch (enter) 
+                                   git branch -d python_branch
+
+
+------------------------Solution--------------------------
+
+Git commands used in this solution:
+
+1. Create a new branch and move to it.
+> git checkout -b 'branch_name'
+
+2. List the created branches available on your local.
+> git branch
+
+3. Change between branches.
+> git checkout branch_to_change_to
+
+4. Delete branches.
+> git branch -d branch_name_to_delete
+Note: In order to delete a branch, you must first move off the branch you would like to delete.
+
