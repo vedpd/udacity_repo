@@ -1,0 +1,33 @@
+----------------- Questions and Answers --------------------------
+
+1. Create and move to a new branch called `develop`
+
+> git checkout -b 'develop'
+
+2. Add some new git commands to the `README.md`
+>vi README.md(enter)
+>esc + i : add the texts , followed by esc + :w, esc+ :q
+
+3. Add, commit, and push the branch with changes to the remote repository.
+>git add name_of_file_to_move_to_github second_file_to_move_to_github
+>git commit -m 'added new files'
+>git push --set -upstream origin develop
+
+4. Look at the pull request to identify the difference between the branch and master.
+>Navigate to github to main repo
+> validate there is pull request
+> click on pull request
+
+5. Merge the pull request and delete the branch.
+>merge the pull request by looking at difference with the files
+>post merging pull request, click on delete the develop branch button (to right of pull request merged button)
+
+6. Change back to your main branch locally, pull the results from the remote to your local, and delete the local `develop` branch.
+>git checkout main
+> git pull
+> git branch -d develop
+
+7. Check the branch is truly removed.
+> git branch
+
+
