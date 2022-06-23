@@ -33,3 +33,5 @@ Here are the commands towork on git:-
 11. git branch : lists all the branches presently in git and which one is active. 
 
 12. git branch -d <branch_name> : to delete any git branch. (Note : you shouldn't be running/active the branch which is going to be deleted).
+
+13. git merge :this is used to merge the branches/ code
