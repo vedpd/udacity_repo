@@ -1,8 +1,8 @@
 '''
 Testing & Logging exercise solution
 
-author: Josh
-date: March 27, 2021
+author: Ved
+date: August 28, 2021
 '''
 
 import logging
